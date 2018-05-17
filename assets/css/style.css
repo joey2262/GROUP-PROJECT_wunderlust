@@ -1,0 +1,269 @@
+body1{
+    background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+.wunderlust-btn{
+    background: rgba(255,255,255,.7);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 2rem;
+    border: solid 4px white;
+    border-radius: 50%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    transition: 1.4s;
+    font-weight: 800;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+}
+
+h1 {
+  font-family: 'Junge', serif;
+}
+
+h2 {
+  font-family: 'Petit Formal Script', cursive;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+h3 {
+  font-family: 'Junge', serif;
+}
+
+p {
+  font-family: 'Junge', serif;
+}
+
+.wind {
+  font-family: 'Junge', serif;
+}
+
+.humidity {
+  font-family: 'Junge', serif;
+}
+
+.temp {
+  font-family: 'Junge', serif;
+}
+.city-weather{
+ font-family: 'Junge', serif;
+}
+
+
+.btn-results{
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+}
+
+.btn-results svg{
+  height: 100%;
+  width: 100%;
+}
+.company-name{
+  position: absolute;
+  opacity: .1;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+
+.btn-results:hover path{
+  fill: white;
+}
+.btn-results:hover polygon{
+  fill: white;
+}
+
+.wunderlust-btn:hover{
+    background: rgba(0,0,0,.8);
+    border: solid 4px white;
+    color: white;
+    transform: rotate(1080deg);
+  
+
+}
+a:hover{
+  text-decoration: none;
+}
+
+.city-name{
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  margin: 0;
+  display: block;
+  padding: 1rem 4rem;
+  background: rgba(0,0,0,.6);
+  border: solid 4px white;
+
+}
+
+.city-weather{
+  font-size: 1.4rem;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width : 992px) {
+    .city-name{
+      font-size: 2rem;
+      margin-top: 3rem;
+      
+    }
+    .company-name{
+      display: none;
+    }
+  }
+
+
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
+ .logo{
+   color: black;
+   text-align: center;
+ }
+ 
+ .Wunderlust-btn{
+   background: rgba(255,255,255,.7);
+   text-align: center;
+   width: 100px;
+   height: 100px;
+   padding: 2rem;
+   border: solid 4px white;
+   border-radius: 50%;
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: .2rem;
+   font-size: 1.2rem;
+   transition: 1.4s;
+   font-weight: 800;
+   cursor: pointer;
+ }
+ .Wunderlust-btn:hover{
+   background: rgba(0,0,0,.8);
+   border: solid 4px black;
+   color: red;
+   transform: rotate(1080deg);
+ 
+ }
+
+.city{
+  text-align: center;
+}
+
+.wind{
+  text-align: center;
+}
+
+.humidity{
+  text-align: center;
+}
+
+.temp{
+  text-align: center;
+}
+
+/* .body {
+  background: black;
+} */
+
+.clock {
+  color: black;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  letter-spacing: 7px;
+  margin: 60px;
+}
+
+ 
+ 
+.page-footer{
+  background-color: rgba(0,0,0,.8);
+  display: flex;
+  justify-content: center;
+}
+.page-footer .row{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.page-footer a{
+  padding: 0 1rem;
+  font-weight: 800;
+}
+
